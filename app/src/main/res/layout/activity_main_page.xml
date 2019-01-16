@@ -10,20 +10,22 @@
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="365dp"
-        android:layout_height="552dp"
+        android:layout_height="428dp"
         app:srcCompat="@drawable/MainPanel"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="48dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="54dp" />
 
     <EditText
         android:id="@+id/UsernameText"
+        style="@android:style/Widget.Material.Light.EditText"
         android:layout_width="240dp"
         android:layout_height="46dp"
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
+        android:textColor="@color/colorAccent"
         tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="183dp" />
+        tools:layout_editor_absoluteY="120dp" />
 
     <EditText
         android:id="@+id/PasswordText"
@@ -33,7 +35,7 @@
         android:hint="Password"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="238dp" />
+        tools:layout_editor_absoluteY="178dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -42,8 +44,8 @@
         android:fontFamily="sans-serif-smallcaps"
         android:text="Sign Up if you dont have an Account"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="478dp" />
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="341dp" />
 
     <Button
         android:id="@+id/button2"
@@ -59,15 +61,15 @@
         android:layout_width="208dp"
         android:layout_height="69dp"
         app:srcCompat="@drawable/LoginButton"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="346dp" />
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="254dp" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="302dp"
         android:layout_height="47dp"
         app:srcCompat="@drawable/Logo"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="1dp" />
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="0dp" />
 
 </android.support.constraint.ConstraintLayout>
