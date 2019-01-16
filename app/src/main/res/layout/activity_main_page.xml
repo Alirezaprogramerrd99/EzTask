@@ -12,20 +12,19 @@
         android:layout_width="365dp"
         android:layout_height="428dp"
         app:srcCompat="@drawable/MainPanel"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="54dp" />
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="109dp" />
 
     <EditText
         android:id="@+id/UsernameText"
-        style="@android:style/Widget.Material.Light.EditText"
         android:layout_width="240dp"
         android:layout_height="46dp"
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
         android:textColor="@color/colorAccent"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="120dp" />
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="149dp" />
 
     <EditText
         android:id="@+id/PasswordText"
@@ -34,18 +33,19 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="178dp" />
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="208dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="277dp"
+        android:layout_height="64dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="Sign Up if you dont have an Account"
+        android:textAlignment="center"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="341dp" />
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="368dp" />
 
     <Button
         android:id="@+id/button2"
@@ -53,16 +53,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Up"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="527dp" />
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="452dp" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="208dp"
         android:layout_height="69dp"
         app:srcCompat="@drawable/LoginButton"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="254dp" />
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="283dp" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -70,6 +70,6 @@
         android:layout_height="47dp"
         app:srcCompat="@drawable/Logo"
         tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="39dp" />
 
 </android.support.constraint.ConstraintLayout>
